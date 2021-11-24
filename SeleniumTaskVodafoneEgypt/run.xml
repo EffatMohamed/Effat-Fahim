@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation" allow-return-values="true" verbose="1">
+    <test name="SaucedemoVodafoneTask">
+        <classes>
+            <class name="com.saucedemo.test.LoginTest"/>
+            <class name="com.saucedemo.test.SelectProductTest"/>
+            <class name="com.saucedemo.test.AddProductToCartTest"/>
+            <class name="com.saucedemo.test.CheckoutTest"/>
+            <class name="com.saucedemo.test.CheckOutInformationTest"/>
+            <class name="com.saucedemo.test.FinishCheckOutTest"/>
+        </classes>
+    </test>
+</suite>
